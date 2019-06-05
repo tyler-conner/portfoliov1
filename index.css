@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+head {
+    width: 100%;
+}
+
+html {
+  font: 20px/1.618 sans-serif;
+}
+.header {
+  background-color: #ed6a5a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav_menu {
+  display: flex;
+  list-style-type: none;
+}
+
+body {
+  background-color: #f4f1bb;
+  margin-top: 4.5rem;
+}
+.container {
+  margin: 6.5 auto;
+  max-width: 50rem;
+  width: 90%;
+}
+.nav_bar {
+  margin-right: 1rem;
+}
+.header_text {
+  color: #5d576b;
+  margin-left: 1rem;
+}
+.nav_margin_right {
+  margin-right: 1rem;
+}
+.nav_menu_item {
+  margin-right: 1rem;
+  background-color: #b6d094;
+  border: 2px solid #333;
+  color: #5d576b;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+}
+/* .hero-image {
+  align-items: center;
+  background-image: url(/Users/owner/Documents/wcci/code/tyler-conner.github.io/IMG_6328.jpg);
+  background-position: 50% 60%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  margin-bottom: 2rem;
+  
+} */
+.parallax {
+  /* The image used */
+  background-image: url(/Users/owner/Documents/wcci/code/tyler-conner.github.io/IMG_6328.jpg);
+
+  /* Set a specific height */
+  height: 70vh;
+
+  /* Create the parallax scrolling effect */
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hero_image_link {
+    color: #B6D094;
+    position: sticky;
+    top: 5.2rem;
+
+}
+/* .bottom_panel {
+    position: sticky;
+    top: 8rem;
+} */
