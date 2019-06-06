@@ -4,15 +4,16 @@
   padding: 0;
 }
 head {
-    width: 100%;
+  width: 100%;
 }
 
 html {
   font: 20px/1.618 sans-serif;
 }
+
 .header {
   background-color: #ed6a5a;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   height: 4.5rem;
@@ -26,15 +27,6 @@ html {
   list-style-type: none;
 }
 
-body {
-  background-color: #f4f1bb;
-  margin-top: 4.5rem;
-}
-.container {
-  margin: 6.5 auto;
-  max-width: 50rem;
-  width: 90%;
-}
 .nav_bar {
   margin-right: 1rem;
 }
@@ -53,26 +45,15 @@ body {
   padding: 0.25rem 0.5rem;
   text-decoration: none;
 }
-/* .hero-image {
-  align-items: center;
-  background-image: url(/Users/owner/Documents/wcci/code/tyler-conner.github.io/IMG_6328.jpg);
-  background-position: 50% 60%;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  height: 70vh;
-  justify-content: center;
-  margin-bottom: 2rem;
-  
-} */
+body {
+  background-color: #f4f1bb;
+}
+
 .parallax {
-  /* The image used */
-  background-image: url(/Users/owner/Documents/wcci/code/tyler-conner.github.io/IMG_6328.jpg);
+  background-image: url("/Users/owner/Library/Mobile Documents/com~apple~CloudDocs/Documents/wcci/code/tyler-conner.github.io/IMG_6328.jpg");
 
-  /* Set a specific height */
   height: 70vh;
 
-  /* Create the parallax scrolling effect */
   align-items: center;
   background-attachment: fixed;
   background-position: center;
@@ -84,12 +65,10 @@ body {
   flex-direction: column;
 }
 .hero_image_link {
-    color: #B6D094;
-    position: sticky;
-    top: 5.2rem;
-
+  color: #b6d094;
 }
-/* .bottom_panel {
-    position: sticky;
-    top: 8rem;
-} */
+.container {
+  margin: 6.5 auto;
+  max-width: 50rem;
+  width: 90%;
+}
