@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+head {
+  width: 100%;
+}
+
+html {
+  font: 20px/1.618 sans-serif;
+}
+
+.header {
+  background-color: #E8E9F3;
+  position: sticky;
+  top: 0;
+  height: 4.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5rem 0.5rem;
+  margin-top: 0rem;
+  border-radius: 15px;
+}
+.header_text {
+  color: #272635;
+  margin-left: 1rem;
+}
+.nav_menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav_bar {
+  margin-right: 1rem;
+}
+
+.nav_margin_right {
+  margin-right: 1rem;
+}
+.nav_menu_item {
+  margin-right: 1rem;
+  background-color: #E8E9F3;
+  border: 2px solid #333;
+  border-radius: 15px;
+  color: #272635;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+}
+.nav_menu_item:hover {
+  opacity: 0.7;
+}
+
+body {
+  color: #272635;
+  background-color: #A6A6A8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+
+  grid-gap: 15px 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-image: url("/Users/owner/Library/Mobile Documents/com~apple~CloudDocs/Documents/wcci/code/tyler-conner.github.io/IMG_6328.jpg");
+
+  height: 55vh;
+
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0.5rem;
+  margin-top: 0rem;
+  border-radius: 15px;
+}
+.hero_image_link {
+  color: #b6d094;
+  text-shadow: 0 0 0.2em #8f7;
+}
+.grid-item {
+  background-color: #E8E9F3;
+}
+.grid-item h2 {
+  text-align: center;
+}
+
+.grid-item-2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  padding: 1rem 1rem;
+  margin: 0.5rem 0.5rem;
+  margin-top: 0rem;
+  border-radius: 15px;
+}
+.projects {
+  display: flex;
+
+  justify-content: space-around;
+}
+.project_container {
+  margin: 0.5rem 0.5rem;
+  margin-top: 0rem;
+  text-align: center;
+  border-radius: 15px;
+}
+footer {
+  background-color: #E8E9F3;
+  height: 4.5rem;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0rem;
+  max-width: 100vw;
+  padding: 1rem 1rem;
+  margin-top: 0rem;
+}
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.footer_text {
+  color: #272635;
+  margin-left: 1rem;
+}
+.connect {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+.icons {
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: space-between; */
+  max-width: 100vw;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: #000000;
+  color: white;
+}
