@@ -71,7 +71,7 @@ body {
 .grid-item-1 {
   grid-column-start: 1;
   grid-column-end: 4;
-  background-image: url("/Users/owner/Library/Mobile Documents/com~apple~CloudDocs/Documents/wcci/code/tyler-conner.github.io/Photos/IMG_6328.jpg");
+  background-image: url("Users/owner/Library/Mobile Documents/com~apple~CloudDocs/Documents/wcci/code/tyler-conner.github.io/Photos/IMG_6328.jpg");
 
   height: 50vh;
 
