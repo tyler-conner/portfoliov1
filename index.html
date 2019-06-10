@@ -9,7 +9,10 @@
       rel="stylesheet"
       href="/Users/owner/Library/Mobile Documents/com~apple~CloudDocs/Documents/wcci/code/tyler-conner.github.io/styles.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -20,9 +23,9 @@
       <nav class="nav_bar nav_margin_right">
         <ul class="nav_menu">
           <!-- add links to IDs on page below -->
-          <li><a class="nav_menu_item" href="">Home</a></li>
-          <li><a class="nav_menu_item" href="">Projects</a></li>
-          <li><a class="nav_menu_item" href="">Contact</a></li>
+          <li><a class="nav_menu_item" href="#about_anchor">About</a></li>
+          <li><a class="nav_menu_item" href="#projects_anchor">Projects</a></li>
+          <li><a class="nav_menu_item" href="#connect_anchor">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -40,67 +43,106 @@
         <div class="grid-item grid-item-2">
           <article>
             <header>
-              <h2>About Me</h2>
+              <h2 id="about_anchor">About Me</h2>
             </header>
-            <section>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                consequuntur magni vitae inventore nobis ullam, nemo molestiae
-                labore illo architecto delectus iusto rerum recusandae magnam,
-                laudantium quo facere? Dolorem, vel?
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                praesentium provident neque repudiandae vero, aut voluptas
-                veritatis! Voluptatem pariatur ea magni animi at eos officiis
-                libero, est, quisquam excepturi sed.
-              </p>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur minus dolor repellat commodi! Quibusdam officiis
-                tempore corporis, mollitia vel veritatis atque id facere eos
-                ratione, officia iusto repudiandae nostrum a?
-              </p>
-            </section>
+            <div class="About_me_section">
+              <img
+                class="personal_photo"
+                src="/Users/owner/Library/Mobile Documents/com~apple~CloudDocs/Documents/wcci/code/tyler-conner.github.io/Photos/IMG_1136.JPG"
+              />
+
+              <div class="about_text">
+                <p>
+                  I am a developer with experience in political campaigns and
+                  brand management.
+                </p>
+                <p>I design websites and create digital content.</p>
+                <p class="skills">
+                  Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML •
+                  CSS • Flexbox • Grid • TDD • Agile (Scrum) • Object Oriented
+                  Programming (OOP) • AJAX • JSON • Restful APIs • Responsive
+                  Design / Mobile • Structured Query Language (SQL) • Relational
+                  Databases • Source Control / Git
+                </p>
+                <p class="skills">
+                  Adobe Premier • Adobe Photoshop • Adobe InDesign • Adobe
+                  Illustrator
+                </p>
+              </div>
+            </div>
           </article>
         </div>
         <div class="grid-item project_container">
-        <h2>Recent Projects</h2>
-        <div class="projects">
-        <div class="project-item project-1">
-            <article>
+          <h2 id="projects_anchor">Recent Projects</h2>
+          <div class="projects">
+            <div class="project-item project-1">
+              <article>
                 <header>
                   <h2>Virtual Pet</h2>
                 </header>
-        </div>
-        <div class="project-item project-2">
-            <article>
+                <img
+                  class="virtual_pet_photo"
+                  src="/Users/owner/Documents/wcci/code/tyler-conner.github.io/Photos/Screen Shot 2019-06-09 at 2.24.46 PM.png"
+                />
+                <p>
+                  As a member of a team, I helped to create an application that
+                  allows users to create and interact with a virtual pet.
+                </p>
+              </article>
+            </div>
+            <div class="project-item project-2">
+              <article>
                 <header>
                   <h2>University Hospital</h2>
                 </header>
-        </div>
-        <div class="project-item project-3">
-            <article>
+                <img
+                  class="hospital_app_photo"
+                  src="/Users/owner/Documents/wcci/code/tyler-conner.github.io/Photos/Screen Shot 2019-06-09 at 2.54.45 PM.png"
+                />
+                <p>
+                  With a partner, I helped to design an application that could
+                  be implemented to help with personnel management at hospitals.
+                </p>
+              </article>
+            </div>
+            <div class="project-item project-3">
+              <article>
                 <header>
                   <h2>FizzBuzz</h2>
                 </header>
+                <img
+                  class="fizzbuzz_photo"
+                  src="/Users/owner/Documents/wcci/code/tyler-conner.github.io/Photos/Screen Shot 2019-06-09 at 3.08.03 PM.png"
+                />
+                <p>
+                  In this simple application, a user inputs a non-negative
+                  number. If the number is a multiple of 3, the application
+                  returns "Fizz", if the number is a multiple of 5 the app
+                  returns "Buzz", and if it is a multiple of both 3 and 5,
+                  "FizzBuzz" will be returned.
+                </p>
+              </article>
+            </div>
+          </div>
         </div>
-    </div>
-      </div>
       </div>
     </main>
-        <footer class="footer_container">
-            <section class="footer_text">
-              <h2>Tyler Conner</h2>
-            </section>
-            <section class="connect">
-              <h3>Connect With Me:</h3>
-              
-              <div class="icons">
-                <a href="https://www.linkedin.com/in/tyler-j-conner" class="fa fa-linkedin"></a>
-                <a href="https://github.com/tyler-conner" class="fa fa-github"></a>
-              </div>
-            </section>
-        </footer>
+    <footer class="footer_container">
+      <section class="footer_text">
+        <h2>Tyler Conner</h2>
+      </section>
+      <section class="connect">
+        <h3 id="connect_anchor">Connect With Me:</h3>
+        <h4>tyler.conner@gmail.com</h4>
+
+        <div class="icons">
+          <a
+            href="https://www.linkedin.com/in/tyler-j-conner"
+            class="fa fa-linkedin"
+          ></a>
+          <a href="https://github.com/tyler-conner" class="fa fa-github"></a>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
